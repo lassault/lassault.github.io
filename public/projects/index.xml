@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Fermin Lassa</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Fermin Lassa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Fermin Lassa ©</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>livEvent 🎵</title>
+      <link>/projects/livevent/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/livevent/</guid>
+      <description>Aplicación para gestión de eventos y red social para promoción de artistas</description>
+    </item>
+    
+    <item>
+      <title>OSniffy 💻</title>
+      <link>/projects/osniffy/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/osniffy/</guid>
+      <description>A simple sniffer made in Python</description>
+    </item>
+    
+  </channel>
+</rss>

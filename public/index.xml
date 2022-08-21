@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fermin Lassa</title>
+    <link>/</link>
+    <description>Recent content on Fermin Lassa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Fermin Lassa ©</copyright>
+    <lastBuildDate>Sun, 21 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>livEvent 🎵</title>
+      <link>/projects/livevent/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/livevent/</guid>
+      <description>Aplicación para gestión de eventos y red social para promoción de artistas</description>
+    </item>
+    
+    <item>
+      <title>OSniffy 💻</title>
+      <link>/projects/osniffy/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/osniffy/</guid>
+      <description>A simple sniffer made in Python</description>
+    </item>
+    
+    <item>
+      <title>Hello world!</title>
+      <link>/posts/post1/</link>
+      <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/post1/</guid>
+      <description>This is going to be my fisrt post</description>
+    </item>
+    
+    <item>
+      <title>Fermin Lassa</title>
+      <link>/about/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Cybersecurity Engineer</description>
+    </item>
+    
+    <item>
+      <title>Rust 🦀</title>
+      <link>/garden/rust/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/rust/</guid>
+      <description>Code snippets with useful stuff about Rust</description>
+    </item>
+    
+    <item>
+      <title>Optimizing your daily fur cleaning routine</title>
+      <link>/garden/evergreen_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/evergreen_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL 💾</title>
+      <link>/garden/sql/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/sql/</guid>
+      <description>Code snippets with useful stuff about SQL</description>
+    </item>
+    
+  </channel>
+</rss>

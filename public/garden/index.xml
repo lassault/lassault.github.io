@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Garden on Fermin Lassa</title>
+    <link>/garden/</link>
+    <description>Recent content in Digital Garden on Fermin Lassa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Fermin Lassa ©</copyright>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust 🦀</title>
+      <link>/garden/rust/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/rust/</guid>
+      <description>Code snippets with useful stuff about Rust</description>
+    </item>
+    
+    <item>
+      <title>Optimizing your daily fur cleaning routine</title>
+      <link>/garden/evergreen_example/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/evergreen_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL 💾</title>
+      <link>/garden/sql/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/garden/sql/</guid>
+      <description>Code snippets with useful stuff about SQL</description>
+    </item>
+    
+  </channel>
+</rss>
