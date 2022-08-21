@@ -1,0 +1,67 @@
+title: Fermin Lassa
+theme: hugo-digital-garden-theme
+copyright: Fermin Lassa ©
+params:
+  name: "Hi, I'm Fermin 👋"
+  description: A Cybersecurity Engineer that tries to break and fix other's people code.
+  initials: lassault
+  googleAnalytics: ''
+  social:
+    - name: Keybase
+      link: 'mailto:fermin.lassa.es'
+      icon: fab fa-keybase
+    - name: Spotify
+      link: 'https://open.spotify.com/user/lassa97'
+      icon: fab fa-spotify
+    - name: LinkedIn
+      link: 'https://www.linkedin.com/in/fermin-lassa-iglesias'
+      icon: fab fa-linkedin-in
+    - name: GitHub
+      link: 'https://github.com/lassa97'
+      icon: fab fa-github-alt
+menu:
+  main:
+    - name: Digital Garden
+      url: /garden/
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
+    - name: Posts
+      url: /posts/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+taxonomies:
+  garden_tags: garden_tags
+  project_tags: project_tags
+  post_tags: post_tags
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_lines: ''
+    lineAnchors: ''
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    noHl: false
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style: dracula
+    tabWidth: 4

@@ -1,0 +1,143 @@
+/*
+    Add a zoom effect to images inside a post
+*/
+
+.main-content img,
+.main-content svg {
+    display: block;
+    margin: auto;
+    text-align: center;
+    transition: transform .5s;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    background-color: #fcfcfc;
+    padding: 1px;
+    margin-block: 10px;
+}
+
+
+.main-content img:hover,
+.main-content svg:hover {
+    transition-delay: 0.22s;
+    -ms-transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+}
+
+.main-content figcaption {
+    text-align: center;
+    font-size: medium !important;
+    font-style: italic;
+}
+
+/*
+    Fix some issues with the image of the 'About' section
+*/
+
+.avatar {
+    width: 75%;
+    height: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-radius: .5em;
+}
+
+.avatar:hover {
+    transition-delay: 0.22s;
+    -ms-transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+}
+
+/*
+    Add a Neon effect to the image.
+*/
+
+@media (prefers-color-scheme: dark) {
+    /* Contains the neon style of the parameter `initials`. */
+    .neon-initials {
+        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+        animation: flicker-text .5s infinite alternate;
+    }
+
+    /* Contains the neon style of the header elements. */
+    .neon-header {
+        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 20px #5271ff, 0 0 24px #5271ff, 0 0 30px #5271ff, 0 0 37px #5271ff, 0 0 51px #5271ff;
+        animation: pulsate-header 2.5s infinite alternate;
+    }
+
+    .neon-text {
+        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 20px #5271ff, 0 0 24px #5271ff, 0 0 30px #5271ff, 0 0 37px #5271ff, 0 0 51px #5271ff;
+        animation: pulsate-text 0.11s ease-in-out infinite alternate;
+    }
+
+    .neon-avatar {
+        /*box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #5271ff, 0 0 82px #5271ff, 0 0 92px #5271ff, 0 0 102px #5271ff, 0 0 151px #5271ff;*/
+        box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 20px #5271ff, 0 0 24px #5271ff, 0 0 30px #5271ff, 0 0 37px #5271ff, 0 0 51px #5271ff;
+        animation: flicker-avatar 2s infinite alternate;
+    }
+
+    /* Flickering animation */
+    @keyframes flicker-text {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+            text-shadow: 0 0 4px #fff, 0 0 7px #fff, 0 0 11px #fff, 0 0 18px #0fa, 0 0 22px #0fa, 0 0 28px #0fa, 0 0 35px #0fa, 0 0 50px #0fa;
+        }
+        20%, 24%, 55% {
+            text-shadow: none;
+        }
+    }
+
+    @keyframes flicker-avatar {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+            box-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #5271ff, 0 0 80px #5271ff, 0 0 90px #5271ff, 0 0 100px #5271ff, 0 0 150px #5271ff;
+        }
+        20%, 24%, 55% {
+            box-shadow: none;
+        }
+    }
+
+    /* Pulsating animation */
+    @keyframes pulsate-header {
+        100% {
+            /* Larger blur radius */
+            text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #5271ff, 0 0 80px #5271ff, 0 0 90px #5271ff, 0 0 100px #5271ff, 0 0 150px #5271ff;
+        }
+        0% {
+            /* Smaller blur radius */
+            text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #5271ff, 0 0 45px #5271ff, 0 0 55px #5271ff, 0 0 70px #5271ff, 0 0 80px #5271ff;
+        }
+    }
+
+    @keyframes pulsate-text {
+        100% {
+            /* Larger blur radius */
+            text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #5271ff, 0 0 80px #5271ff, 0 0 90px #5271ff, 0 0 100px #5271ff, 0 0 150px #5271ff;
+        }
+        
+        0% {
+            /* A slightly smaller blur radius */
+            text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #5271ff, 0 0 73px #5271ff, 0 0 80px #5271ff, 0 0 94px #5271ff, 0 0 140px #5271ff;
+        }
+    }
+}
+
+/*
+    Remove the animation for accesibility
+*/
+
+@media screen and (prefers-reduced-motion) {
+    .neon-initials {
+        animation: none;
+    }
+    .neon-header {
+        animation: none;
+    }
+    .neon-text {
+        animation: none;
+    }
+    .neon-avatar {
+        animation: none;
+    }
+}

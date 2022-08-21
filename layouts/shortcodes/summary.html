@@ -1,0 +1,10 @@
+<details style="margin: 2.5%">
+    <summary>
+        <a href={{ .Get "link" }} target="_blank"><img src={{ .Get "logo" }} alt={{ .Get "company" }} width="10%" height="10%" style="margin-right: 2.5%;"></a><b>{{ .Get "role" }}</b>
+    </summary>
+    <small style="margin-left: 1em; padding: .2em">{{ .Get "duration" }}</small>
+    {{ .Inner }}
+    <!--
+    <small><b style="color: black">Technologies:</b></small>
+    -->
+</details>
