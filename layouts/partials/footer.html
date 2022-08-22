@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="neon-initials footer">{{ .Site.Copyright }} {{ now.Format "2006"}} </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            {{ range .Site.Params.Social }}
+            <a class="footer-social px-2" href="{{ .link }}" target="_blank"><i class="neon-initials {{ .icon }}"></i></a>
+            {{ end }}
+        </div>
+    </div>
+</div>

@@ -4,22 +4,28 @@ theme: hugo-digital-garden-theme
 copyright: Fermin Lassa ©
 params:
   name: "Hi, I'm Fermin 👋"
-  description: A Cybersecurity Engineer that tries to break and fix other's people code.
+  description: I try to break and fix other's people code.
   initials: lassault
   googleAnalytics: ''
   social:
     - name: Keybase
-      link: 'mailto:fermin.lassa.es'
+      link: "mailto:fermin.lassa.es"
       icon: fab fa-keybase
     - name: Spotify
-      link: 'https://open.spotify.com/user/lassa97'
+      link: "https://open.spotify.com/user/lassa97"
       icon: fab fa-spotify
     - name: LinkedIn
-      link: 'https://www.linkedin.com/in/fermin-lassa-iglesias'
+      link: "https://www.linkedin.com/in/fermin-lassa-iglesias"
       icon: fab fa-linkedin-in
     - name: GitHub
-      link: 'https://github.com/lassa97'
+      link: "https://github.com/lassa97"
       icon: fab fa-github-alt
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 menu:
   main:
     - name: Digital Garden
