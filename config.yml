@@ -1,4 +1,4 @@
-baseURL: "https://fermin.lassa.net"
+baseURL: "https://fermin.lassa.es"
 title: Fermin Lassa
 theme: hugo-digital-garden-theme
 copyright: Fermin Lassa ©
@@ -9,16 +9,16 @@ params:
   googleAnalytics: ''
   social:
     - name: Keybase
-      link: "mailto:fermin.lassa.es"
+      link: "mailto:hello@example.com"
       icon: fab fa-keybase
     - name: Spotify
-      link: "https://open.spotify.com/user/lassa97"
+      link: "https://open.spotify.com/user/lassault"
       icon: fab fa-spotify
     - name: LinkedIn
       link: "https://www.linkedin.com/in/fermin-lassa-iglesias"
       icon: fab fa-linkedin-in
     - name: GitHub
-      link: "https://github.com/lassa97"
+      link: "https://github.com/lassault"
       icon: fab fa-github-alt
   assets:
     favicon: "/favicon.ico"
